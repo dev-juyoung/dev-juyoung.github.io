@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://dev-juyoung.github.io/2017/06/15/android-edittext-inputtype-number-and-dash/</loc>
+    
+    <lastmod>2017-06-15T07:25:41.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://dev-juyoung.github.io/2017/06/05/android-library-cropicker/</loc>
     
     <lastmod>2017-06-05T04:25:26.000Z</lastmod>
