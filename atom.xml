@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://dev-juyoung.github.io/"/>
-  <updated>2017-09-05T08:14:46.000Z</updated>
+  <updated>2017-09-05T08:30:27.000Z</updated>
   <id>https://dev-juyoung.github.io/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="https://dev-juyoung.github.io/2017/09/05/android-socket-io/"/>
     <id>https://dev-juyoung.github.io/2017/09/05/android-socket-io/</id>
     <published>2017-09-05T05:29:44.000Z</published>
-    <updated>2017-09-05T08:14:46.000Z</updated>
+    <updated>2017-09-05T08:30:27.000Z</updated>
     
     <content type="html"><![CDATA[<p>요즘 많은 어플리케이션을 사용하다보면, 사용자간의 소통을 위한 기능으로 <code>채팅기능</code>을 제공하고 있습니다.<br>실제로 현업에서 개발을 진행하다보면 채팅은 <code>필수기능</code>으로 꼽힐 정도로 사용자의 니즈가 많은 것 같습니다.</p>
 <p>최근들어 제가 속해 있는 스타트업에서는, 채팅기능에 대한 사용자의 피드백과 필요성을 많이 느끼고 있음을 알고,<br>개발팀에서는 실제 본격적인 개발에 들어가기에 앞서, 채팅기능에 대한 검토와 프로토타이핑을 진행하고 있습니다.</p>
@@ -43,7 +43,7 @@
 <li>Android + socket.io를 이용한 안드로이드 프로젝트 샘플코드.</li>
 </ul>
 </li>
-<li><a href="cro-socket-example.herokuapp.com">Socket.io Demo Site</a><ul>
+<li><a href="https://cro-socket-example.herokuapp.com" target="_blank" rel="external">Socket.io Demo Site</a><ul>
 <li>heroku url (demo)</li>
 <li>웹에서 2개의 Tab을 열어 실제로 어떻게 동작되는지 확인할 수 있습니다.</li>
 </ul>
