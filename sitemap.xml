@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://dev-juyoung.github.io/2017/09/05/android-socket-io/</loc>
+    
+    <lastmod>2017-09-05T08:14:46.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://dev-juyoung.github.io/2017/04/28/remake-blog/</loc>
     
     <lastmod>2017-06-15T07:29:24.000Z</lastmod>
