@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://dev-juyoung.github.io/2017/09/08/start-kotlin-with-android/</loc>
+    
+    <lastmod>2017-09-08T09:21:28.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://dev-juyoung.github.io/2017/09/05/android-socket-io/</loc>
     
     <lastmod>2017-09-05T08:33:23.000Z</lastmod>
