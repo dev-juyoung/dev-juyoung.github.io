@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://dev-juyoung.github.io/"/>
-  <updated>2017-11-10T12:35:26.000Z</updated>
+  <updated>2017-11-10T12:37:41.000Z</updated>
   <id>https://dev-juyoung.github.io/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="https://dev-juyoung.github.io/2017/11/10/android-retrofit-basic/"/>
     <id>https://dev-juyoung.github.io/2017/11/10/android-retrofit-basic/</id>
     <published>2017-11-10T08:37:21.000Z</published>
-    <updated>2017-11-10T12:35:26.000Z</updated>
+    <updated>2017-11-10T12:37:41.000Z</updated>
     
     <content type="html"><![CDATA[<p>개인 App을 만들거나 현업에서 App을 만들다보면, 단순한 화면이동 등의 기능으로는 사용자의 요구사항을 충당하기 힘이 듭니다.</p>
 <p>일반적인 App은 서버와 클라이언트가 네트워크 통신을 통해 데이터를 주고 받으며 실질적으로 화면에 정보를 표출하고, 입력된 정보를 저장하는 등의 여러가지 기능들이 구현되어 있습니다.</p>
@@ -34,7 +34,7 @@
 <p>그리고, 이번 포스팅을 시작으로 <code>Retrofit</code>에 대한 사용법과 실질적으로 통신이 완료된 후 View에 표출하는 방법에 대한 내용까지 몇번의 포스팅으로 나눠 작성하고자 합니다.</p>
 <h2 id="구상중인-포스팅-목록"><a href="#구상중인-포스팅-목록" class="headerlink" title="구상중인 포스팅 목록"></a>구상중인 포스팅 목록</h2><p>현재 이 글을 작성하는 시점을 기준으로 4단계의 포스팅을 구상하고 있습니다.</p>
 <ul>
-<li><a href="https://dev-juyoung.github.io/">Retrofit 기본 사용법</a> (현재글)</li>
+<li><a href="https://dev-juyoung.github.io/2017/11/10/android-retrofit-basic/">Retrofit 기본 사용법</a> (현재글)</li>
 <li>FutureStudio에서 소개하고 있는 <code>ServiceGenerator</code>.</li>
 <li><code>MVC Pattern</code>을 적용한 Retrofit과 RecyclerView를 사용.</li>
 <li>완성된 MVC Pattern의 코드를 <code>MVP Pattern</code>으로 적용하기.</li>
