@@ -44,7 +44,7 @@
 <p>이미 눈치 채셨겠지만 첫번째 선행작업으로 당연히 <code>Retrofit</code>에 대한 객체를 생성하여 사용할 준비가 되어야 겠지요?</p>
 <p>코드부터 살펴보시죠.</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">Retrofit retrofit = <span class="keyword">new</span> Retrofit.Builder()</div><div class="line">    .baseURL(<span class="string">"https://api.github.com/"</span>)</div><div class="line">    .addConverterFactory(GsonConverterFactory.create())</div><div class="line">    .build();</div></pre></td></tr></table></figure>
-<p>Retrofit이 제공하는 Builder 객체를 이용하여, 통신할 서버의 URL을 설정해주고,<br>데이터 파싱을 편하게 할 수 있도록 추가했던 GsonConverter를 설정해 주었습니다.<br>마지막으로 <code>build()</code> method를 통해, 해당 Builder 객체를 이용하여 실질적인 Retrofit 객체를 만들어 주게 됩니다.</p>
+<p>Retrofit이 제공하는 Builder 객체를 이용하여, 통신할 서버의 URL을 설정해주고,<br>데이터 파싱을 편하게 할 수 있도록 추가했던 GsonConverter Library를 설정해 주었습니다.<br>마지막으로 <code>build()</code> method를 통해, 해당 Builder 객체를 이용하여 실질적인 Retrofit 객체를 만들어 주게 됩니다.</p>
 <p>아!, 한가지 주의하여야 할 점은 공식 문서에서는 서버의 URL의 마지막에 <code>/</code>가 없지만,<br>실질적인 통신을 해보고 로깅을 해보면 baseURL에 <code>/</code>가 없을 경우, 요청 해야될 URL에서 일부가 잘려나가는 현상이 발생할 수도 있습니다.</p>
 <p>그러니 꼭 <code>baseURL</code>에 설정된 URL의 마지막에 <code>/</code>를 넣어주세요!.</p>
 <h2 id="API-규격에-맞는-Interface-선언"><a href="#API-규격에-맞는-Interface-선언" class="headerlink" title="API 규격에 맞는 Interface 선언."></a>API 규격에 맞는 Interface 선언.</h2><p>두번째로 작업되어야 할 선행작업은 서버 개발자와 사전에 협의된 API명세에 맞게 Interface를 선언해주는 것 입니다.</p>
