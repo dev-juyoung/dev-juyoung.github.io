@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://dev-juyoung.github.io/"/>
-  <updated>2017-11-10T12:46:32.000Z</updated>
+  <updated>2017-11-10T12:53:14.000Z</updated>
   <id>https://dev-juyoung.github.io/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="https://dev-juyoung.github.io/2017/11/10/android-retrofit-basic/"/>
     <id>https://dev-juyoung.github.io/2017/11/10/android-retrofit-basic/</id>
     <published>2017-11-10T08:37:21.000Z</published>
-    <updated>2017-11-10T12:46:32.000Z</updated>
+    <updated>2017-11-10T12:53:14.000Z</updated>
     
     <content type="html"><![CDATA[<p>개인 App을 만들거나 현업에서 App을 만들다보면, 단순한 화면이동 등의 기능으로는 사용자의 요구사항을 충당하기 힘이 듭니다.</p>
 <p>일반적인 App은 서버와 클라이언트가 네트워크 통신을 통해 데이터를 주고 받으며 실질적으로 화면에 정보를 표출하고, 입력된 정보를 저장하는 등의 여러가지 기능들이 구현되어 있습니다.</p>
@@ -51,7 +51,7 @@
 <li>Retrofit-Conveter-Gson</li>
 <li>OkHttp</li>
 </ul>
-<p>포스팅의 주체인 <code>Retrofit</code>과 <code>Converter-Gson</code>, 그리고 <code>OkHttp</code> 모듈을 추가해 주었는데요.</p>
+<p>포스팅의 주제인 <code>Retrofit</code>과 <code>Converter-Gson</code>, 그리고 <code>OkHttp</code> 모듈을 추가해 주었는데요.</p>
 <p>네트워크 통신 시, <code>XML / JSON 등</code> 서버개발자와 협의된 방식의 데이터 포맷으로 데이터를 주고 받게 되고,<br>결과값으로 받은 데이터 타입을 실제 프로그램에서 사용할 수 있도록 <code>데이터 파싱</code>이라는 과정이 발생합니다.</p>
 <p>이때, 일반적으로 Java에서 <code>DTO 또는 VO</code>등으로 불리는 데이터 클래스를 선언하여,<br>데이터를 파싱하고 파싱된 데이터를 구조에 맞게 작성된 해당 데이터 클래스에 저장해두곤 합니다.</p>
 <p>이러한 일괄의 작업들을 Retrofit은 조금 더 편리하게, 그리고 자동으로 해줄 수 있도록 몇가지의 <code>Converter</code>를 함께 제공하고 있습니다.</p>
