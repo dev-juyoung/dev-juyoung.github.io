@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://dev-juyoung.github.io/"/>
-  <updated>2017-11-10T13:09:06.000Z</updated>
+  <updated>2017-11-10T13:13:06.000Z</updated>
   <id>https://dev-juyoung.github.io/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="https://dev-juyoung.github.io/2017/11/10/android-retrofit-basic/"/>
     <id>https://dev-juyoung.github.io/2017/11/10/android-retrofit-basic/</id>
     <published>2017-11-10T08:37:21.000Z</published>
-    <updated>2017-11-10T13:09:06.000Z</updated>
+    <updated>2017-11-10T13:13:06.000Z</updated>
     
     <content type="html"><![CDATA[<p>개인 App을 만들거나 현업에서 App을 만들다보면, 단순한 화면이동 등의 기능으로는 사용자의 요구사항을 충당하기 힘이 듭니다.</p>
 <p>일반적인 App은 서버와 클라이언트가 네트워크 통신을 통해 데이터를 주고 받으며 실질적으로 화면에 정보를 표출하고, 입력된 정보를 저장하는 등의 여러가지 기능들이 구현되어 있습니다.</p>
@@ -116,7 +116,7 @@
 <p>이러한 Annotation을 이용한 API Interface에 대한 정의가 쉽고, 굉장히 직관적이라는 장점이 있어서 더욱 인기를 끌지 않았나? 라는 생각도 개인적으로는 듭니다.</p>
 <p>아무래도, 작성하다보니 개인적인 의견이 많이 들어가게 되었고, 제가 사용한 용어들이 틀린 부분도 많을 것 같습니다.</p>
 <p>혹시 포스팅을 읽으시다가 잘못된 부분을 보신다면 하단의 댓글에 질타와 조언을 부탁드립니다!</p>
-<p>다음 포스팅은, Retrofit을 조금 더 편리하게 사용할 수 있도록 <code>ServiceGenerator Class</code> 작성해 보는 글을 써보도록 하겠습니다.</p>
+<p>다음 포스팅은, Retrofit을 조금 더 편리하게 사용할 수 있도록 <code>ServiceGenerator Class</code>를 작성해 보는 포스팅을 써보도록 하겠습니다.</p>
 ]]></content>
     
     <summary type="html">
