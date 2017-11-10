@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://dev-juyoung.github.io/"/>
-  <updated>2017-11-10T12:54:33.000Z</updated>
+  <updated>2017-11-10T12:55:42.000Z</updated>
   <id>https://dev-juyoung.github.io/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="https://dev-juyoung.github.io/2017/11/10/android-retrofit-basic/"/>
     <id>https://dev-juyoung.github.io/2017/11/10/android-retrofit-basic/</id>
     <published>2017-11-10T08:37:21.000Z</published>
-    <updated>2017-11-10T12:54:33.000Z</updated>
+    <updated>2017-11-10T12:55:42.000Z</updated>
     
     <content type="html"><![CDATA[<p>개인 App을 만들거나 현업에서 App을 만들다보면, 단순한 화면이동 등의 기능으로는 사용자의 요구사항을 충당하기 힘이 듭니다.</p>
 <p>일반적인 App은 서버와 클라이언트가 네트워크 통신을 통해 데이터를 주고 받으며 실질적으로 화면에 정보를 표출하고, 입력된 정보를 저장하는 등의 여러가지 기능들이 구현되어 있습니다.</p>
@@ -59,7 +59,7 @@
 <p>그렇다면, <code>OkHttp</code> 모듈은 왜 함께 추가되었는지에 대한 의문이 있을 수도 있겠네요.</p>
 <p>실질적으로 샘플 프로젝트에서는 사용하고 있지 않은 방식이지만,</p>
 <p>흔히 요즘 이야기 되는 <code>JSON Web Token</code>등의 방식을 통해 사용자에 대한 인증정보를 <strong>매 요청마다</strong> 서버로 함께 전달해 주어야 하는 경우가 발생하거나, 개발 중 디버깅을 위해 통신 요청 및 응답에 대한 로깅을 해야되는 경우가 발생합니다.</p>
-<p>수작업으로 <code>ctrl + c / v</code>를 하여 요청 시 마다 넣어주는 방법도 있겠지만,<br>Retrofit은 이러한 불편함을 없애주기라도 하듯 <code>OkHttpClient</code>를 매개변수로 받는 <code>client()</code> method를 제공해주고 있습니다.</p>
+<p>수작업으로 <code>ctrl + c / v</code>를 하여 요청 시 마다 넣어주는 방법도 있겠지만,<br>Retrofit은 이러한 불편함을 없애주기라도 한다는듯 <code>OkHttpClient</code>를 매개변수로 받는 <code>client()</code> method를 제공해주고 있습니다.</p>
 <p><code>OkHttpClient</code>를 이용하여 Token 정보를 header에 지정하거나, 로깅과 관련된 Library를 추가하여 입맛에 맞게 작성된 <code>OkHttpClient</code>객체를 <code>client()</code>에 지정을 해주면 <code>ctrl + c / v</code>를 해오던 수작업의 불편함을 손쉽게 해결할 수 있습니다.</p>
 <p>이번 샘플 프로젝트는 이 범주에는 조금 맞지 않는 주제이기에, 혹시 기회가 된다면 Logger를 추가하거나 Token 정보를 Header에 설정하는 방법도 포스팅으로 다뤄보겠습니다.</p>
 <h2 id="Retrofit-Builder-설정과-Retrofit-객체-생성"><a href="#Retrofit-Builder-설정과-Retrofit-객체-생성" class="headerlink" title="Retrofit Builder 설정과 Retrofit 객체 생성."></a>Retrofit Builder 설정과 Retrofit 객체 생성.</h2><p>Library를 추가하고 Gradle Sync를 한번 맞춰주면 Retrofit을 사용할 준비가 완료되었습니다.</p>
