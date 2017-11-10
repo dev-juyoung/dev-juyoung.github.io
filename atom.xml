@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://dev-juyoung.github.io/"/>
-  <updated>2017-11-10T12:55:42.000Z</updated>
+  <updated>2017-11-10T12:59:10.000Z</updated>
   <id>https://dev-juyoung.github.io/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="https://dev-juyoung.github.io/2017/11/10/android-retrofit-basic/"/>
     <id>https://dev-juyoung.github.io/2017/11/10/android-retrofit-basic/</id>
     <published>2017-11-10T08:37:21.000Z</published>
-    <updated>2017-11-10T12:55:42.000Z</updated>
+    <updated>2017-11-10T12:59:10.000Z</updated>
     
     <content type="html"><![CDATA[<p>개인 App을 만들거나 현업에서 App을 만들다보면, 단순한 화면이동 등의 기능으로는 사용자의 요구사항을 충당하기 힘이 듭니다.</p>
 <p>일반적인 App은 서버와 클라이언트가 네트워크 통신을 통해 데이터를 주고 받으며 실질적으로 화면에 정보를 표출하고, 입력된 정보를 저장하는 등의 여러가지 기능들이 구현되어 있습니다.</p>
@@ -41,6 +41,7 @@
 </ul>
 <p>추가적으로, 현재의 샘플 프로젝트는 Retrofit의 사용법에 대한 감을 익히기 위한 프로젝트 이므로, <code>GET</code> 요청만 사용하지만,<br>기회가 된다면 <code>POST / PUT / DELETE</code> 요청과 파일을 전송을 위한 <code>MULTIPART</code>까지 한번 내용을 추가해 보는 것이 목표입니다.</p>
 <p><strong>본격적인 시작에 앞서, 최종 결과물만을 원하시는 분은 <a href="https://github.com/dev-juyoung/retrofit-sample" target="_blank" rel="external">Github SampleRepository</a>를 확인해보세요!</strong></p>
+<h2 id="참고-Repository"><a href="#참고-Repository" class="headerlink" title="참고 Repository"></a>참고 Repository</h2><p>이번 포스팅과 관련된 샘플 프로젝트의 전체 코드는 링크에서 확인하세요!<br><a href="https://github.com/dev-juyoung/retrofit-sample/tree/basic-usage" target="_blank" rel="external">Github Repository</a></p>
 <h2 id="Gradle-Settings"><a href="#Gradle-Settings" class="headerlink" title="Gradle Settings."></a>Gradle Settings.</h2><p>모든 Library의 사용을 위한 첫번째 관문인 Gradle을 세팅해봅시다.</p>
 <figure class="highlight gradle"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// Project Level Gradle.</span></div><div class="line">ext &#123;</div><div class="line">    retrofitVersion = <span class="string">'2.3.0'</span></div><div class="line">    okhttpVersion = <span class="string">'3.9.0'</span></div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="comment">// App Level Gradle.</span></div><div class="line"><span class="keyword">dependencies</span> &#123;</div><div class="line">  <span class="keyword">compile</span> <span class="string">"com.squareup.retrofit2:retrofit:$rootProject.retrofitVersion"</span></div><div class="line">  <span class="keyword">compile</span> <span class="string">"com.squareup.retrofit2:converter-gson:$rootProject.retrofitVersion"</span></div><div class="line">  <span class="keyword">compile</span> <span class="string">"com.squareup.okhttp3:okhttp:$rootProject.okhttpVersion"</span></div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <p>Gradle 설정작업에 있어서는 개인 성향에 따라 다르겠지만,<br>저의 경우 2번의 Gradle 작업을 진행하였습니다.</p>
