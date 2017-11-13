@@ -62,7 +62,7 @@
 <p>클라이언트 객체를 가져온 이후부터는 지금까지와 같은 방식으로 <code>enqueue()</code> 또는 <code>execute()</code>를 이용해 실제 통신을 진행하시면 되죠.</p>
 <p>Square에서 Retrofit 사용을 워낙 간단하게 할 수 있도록 만들어 주었기에 몇 줄 차이나진 않지만, 그래도 조금은 깔끔해진 느낌이 들지 않나요?</p>
 <h2 id="마무리"><a href="#마무리" class="headerlink" title="마무리."></a>마무리.</h2><p>이번 포스팅에서는 <code>ServiceGenerator</code>라는 녀석으로 Retrofit에 대한 설정과 객체생성, 그리고 실제 통신에 사용될 클라이언트 객체에 대한 생성과 관련된 부분을 별도의 클래스로 분리하는 방법을 소개해드렸습니다.</p>
-<p>글을 작성하며, 이 글을 따로 분리할 필요가 있을까?라는 의문도 조금은 들긴 했습니다.</p>
+<p>글을 작성하며, 이 글을 따로 분리 할 필요가 있을까?라는 의문도 조금은 들긴 했습니다.</p>
 <p>어떤분에게는 <strong>당연히 이렇게 분리해서 설계하는게 맞지 않아?</strong> 라는 반응이 있을 수도,</p>
 <p>어떤분에게는 <strong>특별히 개선된 걸 잘 모르겠는데?</strong>라는 반응이 있을 수도 있습니다.</p>
 <p>하지만 실질적으로 많은 분들과 이야기를 나눠보면 저와 같은 초보개발자 분들은 <code>ctrl + c / v</code> 불상사를 겪었던 분들이 적진 않은 것으로 보입니다.</p>
@@ -72,11 +72,11 @@
 <p>그리고 더 나아가, 누구에겐 아무것도 아닐 수 있겠지만 이러한 습관을 들이는 것이 Java의 핵심인 OOP에 조금 더 가까워 질 수 있는 방법이 아닐까 싶기도 하구요.</p>
 <p>각설하고, 이번 포스팅에서는 어찌보면 제 신세한탄인가 싶을 정도의 포스팅이 되었지만, 궁극적인 주제는 <code>ServiceGenerator</code>였습니다!</p>
 <p>혹여 아직도, Retrofit에 대한 설정과 사용을 <code>ctrl + c/v</code>로 처리하고 계신가요?</p>
-<p>그렇다면 소개해드린 <code>ServiceGenerator</code> 클래스를 작성하여 코드를 개선해 보세요!<br><del>물론 기존 코드들 정리해야되는 시간이 소요된다는 건 안 비밀…</del></p>
+<p>그렇다면 소개해드린 <code>ServiceGenerator</code> 클래스를 작성하여 코드를 개선해 보세요!<br><del>물론 기존 코드들 정리해야 되는 시간이 소요된다는 건 안 비밀…</del></p>
 <p>약간의 시간이 소요되더라도 조금의 노력으로 조금 더 나은 프로그래밍을 할 수 있다면 더 좋은게 아닐까요? ㅎㅎ</p>
 <p>이번 포스팅(신세한탄)은 이쯤에서 마무리하고, 두번의 간단한 Retrofit 소개가 있었으니, 실제 사용에 대한 감도 익히셔야 겠죠?</p>
 <p>다음 포스팅에서는 Retrofit과는 조금 주제에 거리감이 있을 수 있지만,</p>
-<p>지금까지 다룬 Retrofit과 RecyclerView를 이용하여 일반적인 Android 개발에 사용되는 <code>MVC Pattern</code>을 적용한 통신과 리스트 표출에 대한 내용을 다뤄보고자 합니다.</p>
+<p>지금까지 다룬 Retrofit과 포스팅으로 다루진 않았지만, Android에서 리스트를 표출하기 위한 RecyclerView를 이용하여 일반적인 Android 개발에 사용되는 <code>MVC Pattern</code>을 적용한 통신과 리스트 표출에 대한 내용을 다뤄보고자 합니다.</p>
 <p>이번 글에서도 잘못된 정보가 있다면, 댓글에 거침없는 질타와 조언 부탁드립니다! 끝까지 읽어주셔서 감사합니다.</p>
 </div></article></div></main><footer><!--include mixins/paginator--><!--+post()--><div id="disqus_thread"></div><script>var disqus_shortname = 'dev-juyoung';
 var disqus_identifier = '2017/11/13/android-retrofit-service-generator/';
