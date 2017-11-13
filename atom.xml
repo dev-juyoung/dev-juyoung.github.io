@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://dev-juyoung.github.io/"/>
-  <updated>2017-11-13T06:47:27.000Z</updated>
+  <updated>2017-11-13T06:49:54.000Z</updated>
   <id>https://dev-juyoung.github.io/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="https://dev-juyoung.github.io/2017/11/13/android-retrofit-service-generator/"/>
     <id>https://dev-juyoung.github.io/2017/11/13/android-retrofit-service-generator/</id>
     <published>2017-11-13T03:40:03.000Z</published>
-    <updated>2017-11-13T06:47:27.000Z</updated>
+    <updated>2017-11-13T06:49:54.000Z</updated>
     
     <content type="html"><![CDATA[<p>Android에서 Retrofit 사용하기 두번째 포스팅 입니다.</p>
 <p>이전 포스팅에서는 Retrofit을 프로젝트에 추가하고 간단히 사용해보이는 포스팅을 작성하였는데요.</p>
@@ -95,7 +95,7 @@
 <p>여하튼, 저도 시간에 쫓긴다고 급하게 작성할 게 아니라 이렇게 공통적으로 사용이 가능한 코드는 <code>ServiceGenerator</code>와 같은 클래스처럼 별도로 분리해서 작성하는 버릇을 조금 들여야 한다고 이번 글을 작성하며 다시 한번 반성하게 되었습니다.</p>
 <p>그리고 더 나아가, 누구에겐 아무것도 아닐 수 있겠지만 이러한 습관을 들이는 것이 Java의 핵심인 OOP에 조금 더 가까워 질 수 있는 방법이 아닐까 싶기도 하구요.</p>
 <p>각설하고, 이번 포스팅에서는 어찌보면 제 신세한탄인가 싶을 정도의 포스팅이 되었지만, 궁극적인 주제는 <code>ServiceGenerator</code>였습니다!</p>
-<p>혹여 아직도, Retrofit에 대한 설정을 <code>ctrl + c/v</code>로 처리하고 계신가요?</p>
+<p>혹여 아직도, Retrofit에 대한 설정과 사용을 <code>ctrl + c/v</code>로 처리하고 계신가요?</p>
 <p>그렇다면 소개해드린 <code>ServiceGenerator</code> 클래스를 작성하여 코드를 개선해 보세요!<br><del>물론 기존 코드들 정리해야되는 시간이 소요된다는 건 안 비밀…</del></p>
 <p>약간의 시간이 소요되더라도 조금의 노력으로 조금 더 나은 프로그래밍을 할 수 있다면 더 좋은게 아닐까요? ㅎㅎ</p>
 <p>이번 포스팅(신세한탄)은 이쯤에서 마무리하고, 두번의 간단한 Retrofit 소개가 있었으니, 실제 사용에 대한 감도 익히셔야 겠죠?</p>
