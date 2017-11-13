@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://dev-juyoung.github.io/"/>
-  <updated>2017-11-13T06:41:48.000Z</updated>
+  <updated>2017-11-13T06:47:27.000Z</updated>
   <id>https://dev-juyoung.github.io/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="https://dev-juyoung.github.io/2017/11/13/android-retrofit-service-generator/"/>
     <id>https://dev-juyoung.github.io/2017/11/13/android-retrofit-service-generator/</id>
     <published>2017-11-13T03:40:03.000Z</published>
-    <updated>2017-11-13T06:41:48.000Z</updated>
+    <updated>2017-11-13T06:47:27.000Z</updated>
     
     <content type="html"><![CDATA[<p>Android에서 Retrofit 사용하기 두번째 포스팅 입니다.</p>
 <p>이전 포스팅에서는 Retrofit을 프로젝트에 추가하고 간단히 사용해보이는 포스팅을 작성하였는데요.</p>
@@ -85,7 +85,7 @@
 <p>우리가 작성한 <code>ServiceGenerator</code> 클래스를 이용하고, 해당 클래스에 정의되어 있는 <code>createService()</code> method를 호출하여, 클라이언트 객체를 가져오기만 하면 됩니다.</p>
 <p>클라이언트 객체를 가져온 이후부터는 지금까지와 같은 방식으로 <code>enqueue()</code> 또는 <code>execute()</code>를 이용해 실제 통신을 진행하시면 되죠.</p>
 <p>Square에서 Retrofit 사용을 워낙 간단하게 할 수 있도록 만들어 주었기에 몇 줄 차이나진 않지만, 그래도 조금은 깔끔해진 느낌이 들지 않나요?</p>
-<h2 id="마무리"><a href="#마무리" class="headerlink" title="마무리."></a>마무리.</h2><p>이번 포스팅에서는 <code>ServiceGenerator</code>라는 녀석으로 Retrofit 객체에 대한 설정코드와 실제 통신을 발생 시켜줄 클라이언트 객체를 분리하는 방법을 소개해드렸습니다.</p>
+<h2 id="마무리"><a href="#마무리" class="headerlink" title="마무리."></a>마무리.</h2><p>이번 포스팅에서는 <code>ServiceGenerator</code>라는 녀석으로 Retrofit에 대한 설정과 객체생성, 그리고 실제 통신에 사용될 클라이언트 객체에 대한 생성과 관련된 부분을 별도의 클래스로 분리하는 방법을 소개해드렸습니다.</p>
 <p>글을 작성하며, 이 글을 따로 분리할 필요가 있을까?라는 의문도 조금은 들긴 했습니다.</p>
 <p>어떤분에게는 <strong>당연히 이렇게 분리해서 설계하는게 맞지 않아?</strong> 라는 반응이 있을 수도,</p>
 <p>어떤분에게는 <strong>특별히 개선된 걸 잘 모르겠는데?</strong>라는 반응이 있을 수도 있습니다.</p>
